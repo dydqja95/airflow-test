@@ -37,7 +37,7 @@ def returnGCSObjectList(tableName: str) -> list:
     return objectList
 
 def checkBigQueryTableExists(tableName: str) -> str:
-    keyPath='/opt/airflow/datas/oauth/balmy-nuance-318401-bf7c6b963e78.json'
+    keyPath='key.json'
     credentails=service_account.Credentials.from_service_account_file(keyPath)
     client = bigquery.Client(credentials=credentails, project=credentails.project_id)
     tableList = client.list_tables('balmy-nuance-318401.ods')
