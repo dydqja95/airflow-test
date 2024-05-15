@@ -47,7 +47,7 @@ def pathList() -> list:
 
 def returnGCSObjectList(tableName: str) -> list:
 
-    keyPath='/opt/airflow/datas/oauth/balmy-nuance-318401-bf7c6b963e78.json'
+    keyPath='key.json'
     credentials=service_account.Credentials.from_service_account_file(keyPath)
     client = storage.Client(credentials=credentials, project=credentials.project_id)
     bucket = client.bucket('ayb-bigquery-test-bucket')
