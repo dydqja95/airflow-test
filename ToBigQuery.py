@@ -6,29 +6,7 @@ from airflow.models import Variable
 
 
 columns = {
-        "ID": "ID",
-        "사고일시": "Accident_Date",
-        "요일": "Day_of_Week",
-        "기상상태": "Weather_Condition",
-        "시군구": "Municipality",
-        "도로형태": "Road_Type",
-        "노면상태": "Surface_Condition",
-        "사고유형": "Accident_Type",
-        "사고유형 - 세부분류": "Accident_Subtype",
-        "법규위반": "Traffic_Violation",
-        "가해운전자 차종": "A_Vehicle_Type",
-        "가해운전자 성별": "A_Gender",
-        "가해운전자 연령": "A_Age",
-        "가해운전자 상해정도": "A_Injury_Severity",
-        "피해운전자 차종": "V_Vehicle_Type",
-        "피해운전자 성별": "V_Gender",
-        "피해운전자 연령": "V_Age",
-        "피해운전자 상해정도": "V_Injury_Severity",
-        "사망자수": "Fatalities",
-        "중상자수": "Serious_Injuries",
-        "경상자수": "Minor_Injuries",
-        "부상자수": "Total_Injuries",
-        "ECLO": "ECLO"
+        'test':'test'
     }
 
 
